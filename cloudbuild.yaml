@@ -2,6 +2,6 @@ steps:
 - id: 'gcloud'
   name: 'gcr.io/cloud-builders/gcloud'
   args: ['version']
-- id: 'go'
-  name: 'gcr.io/cloud-builders/go'
+- id: 'docker'
+  name: 'gcr.io/cloud-builders/docker'
   args: ['version']
