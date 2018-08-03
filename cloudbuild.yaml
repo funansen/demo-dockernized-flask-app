@@ -1,0 +1,4 @@
+steps:
+- id: 'Generate html'
+  name: 'gcr.io/cloud-builders/gcloud'
+  args: ['version']
