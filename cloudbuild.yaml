@@ -1,4 +1,7 @@
 steps:
-- id: 'Generate html'
+- id: 'gcloud'
   name: 'gcr.io/cloud-builders/gcloud'
+  args: ['version']
+- id: 'go'
+  name: 'gcr.io/cloud-builders/go'
   args: ['version']
